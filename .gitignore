@@ -1,0 +1,29 @@
+# OS / editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+.vscode/
+.idea/
+
+# WordPress core generated files
+wp-config.php
+wp-config.*
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/languages/
+wp-content/backups/
+
+# Dependency folders
+node_modules/
+vendor/
+
+# Build artifacts / generated CSS
+*.map
+*.min.js
+*.min.css
+
+# Git metadata
+.git/
