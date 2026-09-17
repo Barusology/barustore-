@@ -1,51 +1,61 @@
 # Barustore
 
-A WooCommerce storefront theme project for Barustore, based on the Woodmart theme framework.
+Modern storefront experience built for a global e-commerce brand.
 
-This repository contains the theme source used for the storefront presentation and configuration. It is intended to be used inside a WordPress installation under `wp-content/themes/woodmart` or adapted into a custom theme package for deployment.
+Barustore is a WooCommerce storefront theme project designed for premium online retail experiences. Built on the Woodmart theme framework, this repository contains the storefront source for a polished, conversion-focused shopping experience with custom storefront structure, theme logic, and commerce-ready UI patterns.
 
-## Project purpose
+## Why Barustore
 
-- Build and manage a premium e-commerce storefront
-- Extend the Woodmart theme with custom storefront logic and styling
-- Support WooCommerce catalog and product pages
-- Keep theme source in version control for easier updates and deployment
+- Premium storefront design for modern online retail
+- WooCommerce-ready structure for product catalog and shopping flows
+- Flexible theme architecture for storefront customization
+- Optimized for presentation, branding, and product discovery
+
+## Highlights
+
+- Custom theme assets and frontend behavior
+- WooCommerce integration and storefront templates
+- Header and layout customization support
+- Responsive storefront components and shopping UI patterns
+- Version-controlled theme source for deployment consistency
 
 ## Project structure
 
-- `inc/` – theme framework and custom integrations
-- `js/` – frontend JavaScript assets
-- `css/` – theme stylesheets
-- `woocommerce/` – WooCommerce overrides and templates
-- `header-elements/` – custom header elements and templates
-- `languages/` – translation files
+- `inc/` – theme logic, integrations, and storefront framework code
+- `js/` – frontend scripts and interactive storefront behavior
+- `css/` – styling and visual assets
+- `woocommerce/` – WooCommerce template overrides and commerce customizations
+- `header-elements/` – custom header content and layout building blocks
+- `languages/` – translation files and localization assets
 
-## Local setup
+## Getting started
 
-1. Place this folder into your WordPress installation under:
+1. Place this folder inside your WordPress installation at:
    `wp-content/themes/woodmart`
 2. Activate the theme in WordPress admin:
    `Appearance > Themes`
-3. Install and activate WooCommerce.
-4. Configure theme settings and import demo content if needed.
+3. Ensure WooCommerce is installed and activated.
+4. Configure theme settings and import demo content if required.
 
 ## Requirements
 
 - WordPress
 - WooCommerce
 - PHP 7.4+ recommended
-- Modern browser support for the storefront experience
+- A modern browser for storefront browsing and admin management
 
-## Security note
+## Deployment notes
 
-This project was reviewed for injected activation/license overrides and malicious code patterns. The known fake activation code was removed from `functions.php` before publishing.
+This repository is intended to serve as the theme source for deployment and version control. In a real WordPress environment, the database, uploads directory, plugins, and production configuration should be managed as part of the site deployment process rather than bundled into theme source control alone.
 
-Before deploying to production, always validate the theme files with PHP linting and review any environment-level WordPress plugins and custom code.
+## Security review
 
-## Deployment
-
-Use this repository as the source for your theme deployment pipeline. For production, ensure the full WordPress install, database, uploads directory, and plugin configuration are handled separately from the theme source itself.
+This project was reviewed for injected activation/license overrides and common malicious code patterns. The known fake activation code was removed before publication, and PHP syntax validation was completed successfully for the theme files.
 
 ## License
 
-This project is a storefront/theme implementation for Barustore and should be used according to the applicable licensing terms of the theme/framework and any bundled assets.
+This project is intended for the Barustore storefront and should be used in accordance with the licensing terms of the underlying theme framework, plugins, and bundled assets.
+
+## Repository status
+
+This project is maintained as a storefront theme source repository for the Barustore brand and is ready to be extended for production customization, deployment, and ongoing storefront development.
